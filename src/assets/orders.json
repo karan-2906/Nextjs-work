@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "customer": "John Doe",
+      "date": "2024-04-28",
+      "total": 1500,
+      "items": [
+        { "name": "Laptop", "price": 1000 },
+        { "name": "Mouse", "price": 50 },
+        { "name": "Keyboard", "price": 100 },
+        { "name": "Headphones", "price": 350 }
+      ]
+    },
+    {
+      "id": 2,
+      "customer": "Jane Smith",
+      "date": "2024-04-27",
+      "total": 750,
+      "items": [
+        { "name": "Smartphone", "price": 600 },
+        { "name": "Charger", "price": 50 },
+        { "name": "Screen Protector", "price": 100 }
+      ]
+    },
+    {
+      "id": 3,
+      "customer": "Alice Johnson",
+      "date": "2024-04-26",
+      "total": 400,
+      "items": [
+        { "name": "Tablet", "price": 300 },
+        { "name": "Case", "price": 50 },
+        { "name": "Stylus Pen", "price": 50 }
+      ]
+    }
+  ]
+  
