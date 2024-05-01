@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 // Import products data and DarkModeContext
 import productsdata from '../../assets/productsdata.json';
-import { useDarkMode } from '../../components/darkmode/useDarkMode'; // Update the path
+// import { useDarkMode } from '../../components/darkmode/useDarkMode'; // Update the path
 
 // Sample data for products
 const products = productsdata;
@@ -14,7 +14,7 @@ const ProductsPage = () => {
   const [sortBy, setSortBy] = useState<string>('name'); // Default sort by name
 
   // Use the useDarkMode hook to access dark mode state and toggle function
-  const { darkMode } = useDarkMode();
+  // const { darkMode } = useDarkMode();
 
   // Handlers for search and sort changes
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,7 +41,7 @@ const ProductsPage = () => {
   );
 
   return (
-    <div className={`container mx-auto px-4 ${darkMode ? 'dark' : ''}`}> {/* Apply dark mode class */}
+    <div className={`container mx-auto px-4 `}> {/* Apply dark mode class */}
       {/* Search bar */}
       <div className="flex mb-4">
         <input
