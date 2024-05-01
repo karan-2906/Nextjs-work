@@ -1,16 +1,15 @@
 'use client';
-import React from 'react';
-import { AppProps } from 'next/app';
+import ProductsPage from "./products/page"
+import { useDarkMode } from '../components/darkmode/useDarkMode';
 
-import ProductsPage from '../app/products/page';
+export default function Home() {
+  const { darkMode } = useDarkMode();
 
-function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div>
-        {/* <Component {...pageProps} /> */}
+    <div className={`container mx-auto ${darkMode ? 'dark' : ''}`}>
+      <div className="bg-white dark:bg-black">
         <ProductsPage />
+      </div>
     </div>
-  );
+  )
 }
-
-export default MyApp;
