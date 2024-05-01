@@ -41,7 +41,7 @@ const ProductsPage = () => {
   );
 
   return (
-    <div className={`container mx-auto px-4 `}> {/* Apply dark mode class */}
+    <div className={`container mx-auto px-4 mt-28`}> {/* Apply dark mode class */}
       {/* Search bar */}
       <div className="flex mb-4">
         <input
