@@ -1,4 +1,4 @@
-// Import React and useState hook
+'use client'
 import React, { useState } from 'react';
 
 // Import products data and DarkModeContext
